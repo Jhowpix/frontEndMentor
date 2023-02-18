@@ -81,7 +81,6 @@ p{
   align-items:flex-start;
   justify-content: space-around;
   padding: 20px 30px 20px 30px;
-  z-index: 1;
 }
 
 .button{
@@ -114,6 +113,7 @@ button:hover{
   background-color:hsl(25, 97%, 53%) ;
   color: hsl(0, 0%, 100%);
 }
+
 .submitButton button:hover{
   background-color:  hsl(0, 0%, 100%);
   color:hsl(25, 97%, 53%) ;
@@ -124,6 +124,7 @@ button:hover{
 }
 
 #thankyou{ 
+  display: none;
   position: absolute;
   width: 370px;
   height: 370px;
@@ -134,7 +135,6 @@ button:hover{
   align-items:center;
   justify-content: space-around;
   padding: 30px 18px 30px 18px;
-  z-index: 0;
 }
 
 #appreciate{
@@ -142,7 +142,25 @@ button:hover{
   color: hsl(217, 12%, 63%) ;
   text-align: center;
 }
+
 #imgThankyou{
   background: none;
   border-radius: none;
+}
+
+
+@media (max-width: 400px){
+
+  #thankyou{
+      width: 340px;
+  height: 370px;
+  transform: scale( 0.9);
+  }
+
+  #sectionFirst{
+      width: 340px;
+  height: 370px;
+  transform: scale( 0.9);
+  }
+
 }
