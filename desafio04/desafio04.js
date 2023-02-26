@@ -1,7 +1,5 @@
 
 
-document.getElementById("thankyou"){
-  
-}
+
 
   
