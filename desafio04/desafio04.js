@@ -1,3 +1,3 @@
 function btn1(){
- document.getElementById('one').style.backgroundColor="red";
+  return document.getElementById("one").style.backgroundColor="red";
 }
